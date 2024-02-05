@@ -8,12 +8,8 @@
 
 .header {
   width: 100%;
-  /* height: 50px; */
-  /* background-color: #6c757d; */
   background-color: #adb5bd;
   display: flex;
-  /* padding-left: 5%;
-  padding-right: 5%; */
   padding: 0% 10%;
   justify-content: space-between;
 }
@@ -21,7 +17,6 @@
 .logo {
   width: 10%;
   height: 70px;
-  /* background-color: yellow; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,13 +27,11 @@
 .nav {
   width: 40%;
   height: 70px;
-  /* background-color: blue; */
 }
 
 .nav-links {
   width: 100%;
   height: 70px;
-  /* background-color: red; */
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -65,7 +58,6 @@ a:hover {
   padding-right: 10%;
   display: flex;
   align-items: center;
-  /* justify-content: space-evenly; */
 }
 
 .details {
@@ -76,9 +68,6 @@ a:hover {
   flex-direction: column;
   align-items: flex-start;
   row-gap: 15px;
-  /* background-color: #e9ecef; */
-  /* border-radius: 30px;
-  box-shadow: 0 0 25px gray; */
 }
 
 .t1 {
@@ -125,8 +114,6 @@ a:hover {
   border-radius: 35px;
   box-shadow: 0 0 25px gray;
 }
-
-/* ///////////////////////////////////////////// */
 
 .skills {
   width: 100%;
@@ -187,7 +174,7 @@ a:hover {
   background-color: transparent;
   color: #212529;
 }
-/* ////////////////////////////////////////////////// */
+
 .academics {
   padding: 30px 10%;
   background-color: #adb5bd;
@@ -278,11 +265,9 @@ a:hover {
 .projects {
   width: 100%;
   padding: 30px 10%;
-  /* background-color: red; */
 }
 
 .project-section-child {
-  /* background-color: aliceblue; */
   flex-wrap: wrap;
   align-items: center;
   row-gap: 30px;
@@ -304,7 +289,6 @@ a:hover {
 .footer {
   width: 100%;
   padding: 30px 10%;
-  /* background-color: #6c757d; */
   background-color: #4a4a4a;
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -317,7 +301,6 @@ a:hover {
 .footer-child {
   width: 22%;
   padding: 20px 50px;
-  /* background-color: grey; */
   display: flex;
   flex-direction: column;
   row-gap: 7px;
@@ -335,7 +318,6 @@ a:hover {
 }
 
 .f-icons {
-  /* background-color: red; */
   display: flex;
   flex-direction: row;
   column-gap: 15px;
@@ -379,12 +361,21 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   /* CSS rules for mobile phones */
+   .nav {
+    width: 60%;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* CSS rules for laptops and tablets */
+   .nav {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1025px) {
   /* CSS rules for computers */
+   .nav {
+    width: 45%;
+  }
 }
